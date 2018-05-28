@@ -1,6 +1,6 @@
 # wxapp-graphql
 
-微信小程序GraphQL客户端
+微信小程序GraphQL客户端，点击图片观看演示demo
 
 [![Watch the video](https://usercontents.authing.cn/20180528-184211@2x.png)](https://usercontents.authing.cn/20180528-183158-HD.mp4)
 
