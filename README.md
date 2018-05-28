@@ -2,6 +2,8 @@
 
 微信小程序GraphQL客户端
 
+[![Watch the video](https://usercontents.authing.cn/20180528-184211@2x.png)](https://usercontents.authing.cn/20180528-183158-HD.mp4)
+
 ## 使用方法
 
 ### clone项目
