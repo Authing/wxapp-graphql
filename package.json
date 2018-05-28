@@ -1,0 +1,23 @@
+{
+  "name": "wxapp-graphql",
+  "version": "0.0.1",
+  "description": "微信小程序GraphQL客户端",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Authing/wxapp-graphql.git"
+  },
+  "keywords": [
+    "小程序",
+    "graphql"
+  ],
+  "author": "Authing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Authing/wxapp-graphql/issues"
+  },
+  "homepage": "https://github.com/Authing/wxapp-graphql#readme"
+}
