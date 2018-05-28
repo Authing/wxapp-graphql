@@ -2,18 +2,6 @@ var gql = require('../graphql/wxgql.js');
 var GraphQL = gql.GraphQL;
 
 Page({
-  onLaunch: function () {
-    console.log('App Launch')
-  },
-  onShow: function () {
-    console.log('App Show')
-  },
-  onHide: function () {
-    console.log('App Hide')
-  },
-  globalData: {
-    hasLogin: false
-  },
   test: function() {
 
     let gql = GraphQL({
@@ -26,8 +14,8 @@ Page({
     getAccessTokenByAppSecret(secret: $secret, clientId: $clientId)
 }`,
         variables: {
-          secret: '850280a3d20e1ae833dca3d80083b776',
-          clientId: '5b013d0b096aa60001cb26f6'
+          secret: '427e24d3b7e289ae9469ab6724dc7ff0',
+          clientId: '5a9fa26cf8635a000185528c'
         }
       },
       success: function (res) {
