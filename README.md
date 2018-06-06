@@ -65,9 +65,5 @@ Page({
 
 ## TODO
 
-1. 兼容WEPY
-2. 兼容NPM
-3. 兼容await
-4. 兼容promise
-5. 深度错误处理
+1. 兼容NPM
 
