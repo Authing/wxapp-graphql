@@ -26,8 +26,24 @@ Page({
     // 初始化对象
     let gql = GraphQL({
       url: 'https://users.authing.cn/graphql' // url必填 
-    });
+    }, true); //第二个参数的true代表是否使用对象方法，如gql.query或gql.mutate，默认是函数方法，如gql({body: {query: '', variables: {}}})，建议写true，为true时可以使用promise
 
+    gql.query({
+        query: `query getAccessTokenByAppSecret($secret: String!, $clientId: String!){
+    getAccessTokenByAppSecret(secret: $secret, clientId: $clientId)
+}`,
+        variables: {
+          secret: '427e24d3b7e289ae9469ab6724dc7ff0',
+          clientId: '5a9fa26cf8635a000185528c'
+        }
+    }).then(function(res) {
+      //成功
+    }).catch(function(error) {
+      //失败
+    })
+    
+    //初始化时第二个参数不为true的使用方法：
+    
     gql({
 
       // 示例GraphQL查询, body必填
