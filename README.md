@@ -40,12 +40,26 @@ Page({
       //成功
     }).catch(function(error) {
       //失败
-    })
+    });
     
-    //初始化时第二个参数不为true的使用方法：
+  }
+});
+
+```
+
+### 另外一种使用方法（可选）
+
+``` shell
+var gql = require('path/to/graphql/wxgql.js');
+var GraphQL = gql.GraphQL;
+
+Page({
+  test: function() {
+    let gql = GraphQL({
+      url: 'https://users.authing.cn/graphql' // url必填 
+    });
     
     gql({
-
       // 示例GraphQL查询, body必填
       body: {
         query: `query getAccessTokenByAppSecret($secret: String!, $clientId: String!){
@@ -72,11 +86,7 @@ Page({
         console.log(res);
       }
     });
-
-  }
 });
-
-
 ```
 
 ## TODO
