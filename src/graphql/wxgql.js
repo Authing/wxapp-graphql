@@ -5,7 +5,7 @@ var errorHandler = function(resolve, reject, res) {
   if(res.statusCode == 200 && retData.code ==200) {
     resolve(res.data);                
   }else {
-    reject(res.data.errors[0].message);
+    reject(res.data);
   }
 }
 
