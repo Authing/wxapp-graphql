@@ -1,12 +1,12 @@
-var responseHandler = function(resolve, reject, res,errorHandler) {
+var responseHandler = function(resolve, reject, res, errorHandler) {
     var retData = res.data.errors ? res.data.errors[0].message : {
         code: 200
     };
     if(res.statusCode == 200 && retData.code ==200) {
         resolve(res.data.data);
-    }else {
+    } else {
         reject(res.data);
-        if(errorHandler){
+        if (errorHandler) {
             errorHandler(res.data);
         }
     }
@@ -57,7 +57,7 @@ var GraphQL = function(obj, retObj) {
                 });
             }
         }
-    }else {
+    } else {
         return function (_obj) {
 
             if (!_obj.body) {
