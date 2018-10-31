@@ -1,6 +1,6 @@
 {
   "name": "wxapp-graphql",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "微信小程序GraphQL客户端",
   "main": "src/graphql/wxgql.js",
   "scripts": {
