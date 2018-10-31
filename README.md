@@ -1,6 +1,6 @@
 # wxapp-graphql
 
-一个适用于小程序的 GraphQL 客户端。
+一个适用于小程序的 GraphQL 客户端，由 [Authing](https://authing.cn) 开发维护。
 
 ## 使用 NPM 安装
 
@@ -89,4 +89,4 @@ Page({
 });
 ```
 
-全局详细配置请查看[example](https://github.com/Authing/wxapp-graphql/blob/master/src/example/graphql.js)
+全局详细配置请查看 [example](https://github.com/Authing/wxapp-graphql/blob/master/src/example/graphql.js).
