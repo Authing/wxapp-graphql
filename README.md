@@ -3,18 +3,20 @@
 
 ## 使用方法
 
-### clone 项目
+### 使用 NPM 安装
 
 ``` shell
-git clone https://github.com/Authing/wxapp-graphql
+$ npm install wxapp-graphql
 ```
 
-### 将文件中的 graphql 文件夹复制到你的项目中并开始使用
+如何在小程序里使用 NPM，请参考[这篇文章](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)。
+
+### 使用
 
 ``` javascript
 
 // 引入文件
-var gql = require('path/to/graphql/wxgql.js');
+var gql = require('wxapp-graphql');
 var GraphQL = gql.GraphQL;
 
 Page({
@@ -35,8 +37,10 @@ Page({
         }
     }).then(function(res) {
       //成功
+      console.log(res);
     }).catch(function(error) {
       //失败
+      console.log(error);
     });
     
   }
@@ -86,10 +90,4 @@ Page({
 });
 ```
 
-
 全局详细配置请查看[example]()
-
-## TODO
-
-1. 兼容 NPM
-
