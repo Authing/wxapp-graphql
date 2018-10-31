@@ -1,8 +1,5 @@
 # wxapp-graphql
 
-微信小程序 GraphQL 客户端，点击图片观看演示 demo
-
-[![Watch the video](https://usercontents.authing.cn/20180528-184211@2x.png)](https://usercontents.authing.cn/20180528-183158-HD.mp4)
 
 ## 使用方法
 
@@ -88,6 +85,9 @@ Page({
     });
 });
 ```
+
+
+全局详细配置请查看[example]()
 
 ## TODO
 
