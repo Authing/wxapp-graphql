@@ -1,9 +1,8 @@
 # wxapp-graphql
 
+一个适用于小程序的 GraphQL 客户端。
 
-## 使用方法
-
-### 使用 NPM 安装
+## 使用 NPM 安装
 
 ``` shell
 $ npm install wxapp-graphql
@@ -11,7 +10,7 @@ $ npm install wxapp-graphql
 
 如何在小程序里使用 NPM，请参考[这篇文章](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)。
 
-### 使用
+## 使用
 
 ``` javascript
 
@@ -48,7 +47,7 @@ Page({
 
 ```
 
-### 另外一种使用方法（可选）
+## 另外一种使用方法（可选）
 
 ``` shell
 var gql = require('path/to/graphql/wxgql.js');
@@ -90,4 +89,4 @@ Page({
 });
 ```
 
-全局详细配置请查看[example]()
+全局详细配置请查看[example](https://github.com/Authing/wxapp-graphql/blob/master/src/example/graphql.js)
