@@ -5,7 +5,7 @@
 ## 使用 NPM 安装
 
 ``` shell
-$ npm install wxapp-graphql
+$ npm install wxapp-graphql --save
 ```
 
 如何在小程序里使用 NPM，请参考[这篇文章](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)。
