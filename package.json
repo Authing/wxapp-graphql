@@ -1,11 +1,8 @@
 {
   "name": "wxapp-graphql",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "微信小程序GraphQL客户端",
   "main": "src/graphql/wxgql.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Authing/wxapp-graphql.git"

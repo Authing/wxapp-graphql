@@ -18,8 +18,17 @@ var GraphQL = function(obj, retObj) {
         throw "请提供GraphQL请求URL(.url)"
     }
 
-
     retObj = retObj || false;
+
+    let header = {};
+
+    if (typeof obj.header === 'function') {
+      header = obj.header();
+    }
+
+    if (typeof obj.header === 'object') {
+      header = obj.header;
+    }
 
     if(retObj) {
         return {
@@ -32,7 +41,7 @@ var GraphQL = function(obj, retObj) {
                             query: queryObj.query,
                             variables: queryObj.variables
                         }),
-                        header:obj.header(),
+                        header: queryObj.header || header,
                         complete: function(res) {
                             responseHandler(resolve, reject, res,obj.errorHandler);
                         }
@@ -49,7 +58,7 @@ var GraphQL = function(obj, retObj) {
                             query: mutateObj.mutation,
                             variables: mutateObj.variables
                         }),
-                        header: obj.header || mutateObj.header,
+                        header: mutateObj.header || header,
                         complete: function(res) {
                             responseHandler(resolve, reject, res);
                         }
@@ -70,7 +79,7 @@ var GraphQL = function(obj, retObj) {
                 data: JSON.stringify(_obj.body),
                 success: _obj.success,
                 fail: _obj.fail,
-                header: obj.header() || _obj.header(),
+                header: _obj.header || header,
                 complete: _obj.complete
             });
         }
