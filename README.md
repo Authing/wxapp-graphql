@@ -25,7 +25,8 @@ Page({
     let gql = GraphQL({
       url: 'https://users.authing.cn/graphql' // url 必填 
     }, true);
-
+    
+    // query 查询，mutation 请使用 gql.mutate
     gql.query({
         query: `query getAccessTokenByAppSecret($secret: String!, $clientId: String!){
     getAccessTokenByAppSecret(secret: $secret, clientId: $clientId)
