@@ -48,6 +48,15 @@ Page({
 
 ```
 
+## 发起 mutation 请求
+
+``` javascript
+gql.mutate({
+  mutation: 'YOUR_GQL',
+  variables: 'YOUR_variables'
+})
+```
+
 ## 配置全局 header 和错误拦截
 
 ``` javascript
