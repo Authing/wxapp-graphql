@@ -86,3 +86,7 @@ module.exports = gql;
 ```
 
 全局详细配置请查看 [example](https://github.com/Authing/wxapp-graphql/blob/master/src/example/graphql.js).
+
+## Get Help
+
+1. Join us on Gitter: [#authing-chat](https://gitter.im/authing-chat/community)
