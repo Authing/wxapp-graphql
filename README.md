@@ -1,6 +1,15 @@
 # wxapp-graphql
 
-一个适用于小程序的 GraphQL 客户端，由 [Authing](https://authing.cn) 开发维护。
+<div align=center><img src="https://files.authing.co/authing-console/authing-logo-new-20210924.svg"></div>
+<div align=center>一个适用于小程序的 GraphQL 客户端，由 <a href="https://authing.cn" target="_blank">Authing</a> 开发维护。</div>
+<br/>
+<div align="center">
+  <a href="https://badge.fury.io/js/wxapp-graphql"><img src="https://badge.fury.io/js/wxapp-graphql.svg" alt="npm version" height="18"></a>
+  <a href="https://npmcharts.com/compare/wxapp-graphql" target="_blank"><img src="https://img.shields.io/npm/dm/wxapp-graphql" alt="download"></a>
+  <a href="https://standardjs.com" target="_blank"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="standardjs"></a>
+  <a href="javascript:;" target="_blank"><img src="https://img.shields.io/badge/node-%3E=12-green.svg" alt="Node"></a>
+</div>
+<br/>
 
 ## 使用 NPM 安装
 
@@ -87,6 +96,13 @@ module.exports = gql;
 
 全局详细配置请查看 [example](https://github.com/Authing/wxapp-graphql/blob/master/src/example/graphql.js).
 
-## Get Help
+## 参与贡献
+- Fork it
+- Create your feature branch (git checkout -b my-new-feature)
+- Commit your changes (git commit -am 'Add some feature')
+- Push to the branch (git push origin my-new-feature)
+- Create new Pull Request
 
-1. Join us on Gitter: [#authing-chat](https://forum.authing.cn/)
+## 获取帮助
+
+Join us on Gitter: [#authing-chat](https://forum.authing.cn/)
