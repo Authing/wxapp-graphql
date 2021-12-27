@@ -1,6 +1,6 @@
 # wxapp-graphql
 
-<div align=center><img src="https://files.authing.co/authing-console/authing-logo-new-20210924.svg"></div>
+<div align=center><img width="300" src="https://files.authing.co/authing-console/authing-logo-new-20210924.svg"></div>
 <div align=center>一个适用于小程序的 GraphQL 客户端，由 <a href="https://authing.cn" target="_blank">Authing</a> 开发维护。</div>
 <br/>
 <div align="center">
